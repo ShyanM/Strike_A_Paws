@@ -1,45 +1,88 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Strike a Paws!
 
-Welcome USER_NAME,
+This aim of this project is to create a website for Regina Phalange's pet photography business - Strike a Paws!. The website will provide potential customers a platform to view Regina's work, purchase her work and contact for a consultation/booking.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## <ins>Contents </ins>
+1. UX
+    * Project Goals
+    * Customer Goals
+    * Business Owner Goals
+    * Developer Goals
+    * User Stories
+    * Design Choices
+    * Wireframes
+      
+2. Features
+3. Technologies used
+4. Testing
+5. Deployment
+6. Credits
+    * Content
 
-## Gitpod Reminders
+## 1. UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Project Goals
 
-`python3 -m http.server`
+The main aim for this website is to provide a platform for Regina to showcase her work and provide a place where potential customers can find all the information they might need including how to book a photoshoot of their pets.
 
-A blue button should appear to click: *Make Public*,
+### Customer Goals
 
-Another blue button should appear to click: *Open Browser*.
+The target audience for this project are pet owners.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Customer's goals are:
 
-A blue button should appear to click: *Make Public*,
+- to see Regina's portfolio.
+- to see other customer's reviews.
+- to be able to purchase her photography.
+- to contact Regina for a consultation or photoshoot.
+- to see the services offered.
+- to learn more about the photographer.
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Business Owner Goals
 
-## Updates Since The Instructional Video
+- to showcase her work in an elegant way.
+- to drum up new business.
+- to have a site to point potential customers to.
+- increase photoshoot bookings.
+- Increase sales of product.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Developer Goals
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- To create a beautiful, elegant website that provides great user experience for customers.
+- to have a responsive website that works well on various mediums.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### User Stories
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+As a customer I want:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- to be able to see various photos so that I know how mine can turn out.
+- to be able to purchase a photograph I like.
+- to be able to navigate with ease through pages.
+- to see the prices so I can see if the service is affordable.
+- an easy way to contact the photographer.
+- to see other people's experiences and reviews.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Design Choices
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Wireframes
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- Home
+![alt text](./assets/wireframe/Home.png)
+- Gallery
+![alt text](./assets/wireframe/Gallery.png)
+- Services
+![alt text](./assets/wireframe/Services.png)
+- Contact
+![alt text](./assets/wireframe/Contact.png)
 
---------
 
-Happy coding!
+## 2. Features
+## 3. Technologies used
+## 4. Testing
+## 5. Deployment
+## 6. Credits
+ 
+### Content
+Name and picture of photographer are taken from the tv show Friends.
+
