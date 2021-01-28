@@ -1,4 +1,15 @@
 
+/*--------------------------color----------------------------------*/
+p {
+    color: #f2f0e4;
+}
+
+/*--------------------------General----------------------------------*/
+
+p {
+    font-size: smaller;
+}
+
 /*--------------------------Hero image and text----------------------------------*/
 
 body{
@@ -100,4 +111,36 @@ nav input:checked  ~ ul{
     color: #f2f0e4;
     float: right;
     text-shadow: 1px 1px 15px #042A2B;
+}
+
+/*--------------------------About Me----------------------------------*/
+.aboutme {
+    padding-top: 50px;
+    
+}
+}
+
+.profilepic {
+    
+    padding-left: 25px;
+}
+    
+
+.profilepic img{
+    border-radius: 50%;
+    
+}
+
+.introduction {
+    color: #f2f0e4;
+    font-size: smaller;
+    font-weight: 200;
+    vertical-align: middle;
+    text-align: left;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 50%
+;
 }

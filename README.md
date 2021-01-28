@@ -97,3 +97,5 @@ Fonts used are Kalam for Main titles and Raleway for the rest of the text. Both 
 
 Use of bootstrap and font awesome.
 
+used https://maxpelic.com/blog/post/css-only-menu/ to create the menu and adjusted it to my needs.
+
