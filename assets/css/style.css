@@ -1,0 +1,103 @@
+
+/*--------------------------Hero image and text----------------------------------*/
+
+body{
+    margin: 0;
+    background-color: #042A2B;
+}
+
+header {
+    min-height: 100%;
+    background-size: cover;
+}
+
+
+.hero-image {
+    background-image: url("../images/roof_puppies.jpg");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    font-family: 'Ralway', sans-serif;
+    margin: 0;
+    color: #f2f0e4;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 150px;
+    text-shadow: 1px 1px 15px #042A2B;
+
+   
+}
+
+h1, h3 {
+    font-weight: 500;
+    margin: 0;
+}
+
+
+h1 {
+  
+    font-size: 5rem;
+}
+
+h2{
+    font-weight: 3rem;
+}
+
+
+/*--------------------------Menu ----------------------------------*/
+
+.menu {
+    font-family: 'Ralway', sans-serif;
+    text-shadow: 0.5px 0.5px 10px #042A2B;
+}
+
+a {
+    color: #f2f0e4;
+    text-decoration: none;
+
+}
+/*--------------------------https://maxpelic.com/blog/post/css-only-menu/ ----------------------------------*/
+nav input{
+    display: none;
+}
+
+nav input:checked ~ label i:first-child{
+   display:none;
+}
+nav input:not(:checked) ~ label i:last-child{
+   display:none;
+}
+
+nav{
+   position:fixed;
+   top:20px;
+   right:60px;
+   min-width:40px;
+   min-height:40px;
+   overflow:hidden;
+}
+
+nav ul{
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    padding: 0%;
+    margin: 0;
+    transition: height 0.3s;
+    list-style: none;
+}
+
+nav input:checked  ~ ul{
+    width:70px;
+    height: 90px;
+}
+
+.menuicons {
+    color: #f2f0e4;
+    float: right;
+    text-shadow: 1px 1px 15px #042A2B;
+}

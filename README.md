@@ -65,6 +65,11 @@ As a customer I want:
 
 ### Design Choices
 
+Colour scheme - #F2F0E4 
+#042A2B
+#9AABB3
+#855A5C
+
 ### Wireframes
 
 - Home
@@ -85,4 +90,10 @@ As a customer I want:
  
 ### Content
 Name and picture of photographer are taken from the tv show Friends.
+
+Images of pets have been sourced from pexels.com
+
+Fonts used are Kalam for Main titles and Raleway for the rest of the text. Both fonts are from google fonts.
+
+Use of bootstrap and font awesome.
 
