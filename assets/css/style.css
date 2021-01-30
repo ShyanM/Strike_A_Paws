@@ -1,8 +1,19 @@
 
 /*--------------------------color----------------------------------*/
+
+body {
+    background-color: #9B9DC0;
+}
+
 p {
     color: #f2f0e4;
 }
+
+.reviews {
+    background-color: #101019;
+}
+
+
 
 /*--------------------------General----------------------------------*/
 
@@ -10,11 +21,11 @@ p {
     font-size: smaller;
 }
 
+
 /*--------------------------Hero image and text----------------------------------*/
 
 body{
     margin: 0;
-    background-color: #042A2B;
 }
 
 header {
@@ -38,7 +49,7 @@ header {
     text-transform: uppercase;
     text-align: center;
     padding-top: 150px;
-    text-shadow: 1px 1px 15px #042A2B;
+    text-shadow: 1px 1px 15px #101019;
 
    
 }
@@ -63,7 +74,7 @@ h2{
 
 .menu {
     font-family: 'Ralway', sans-serif;
-    text-shadow: 0.5px 0.5px 10px #042A2B;
+    text-shadow: 0.5px 0.5px 10px #101019;
 }
 
 a {
@@ -110,37 +121,67 @@ nav input:checked  ~ ul{
 .menuicons {
     color: #f2f0e4;
     float: right;
-    text-shadow: 1px 1px 15px #042A2B;
+    text-shadow: 1px 1px 15px #1F2032;
 }
 
 /*--------------------------About Me----------------------------------*/
-.aboutme {
-    padding-top: 50px;
+
+
+
+
+.purpborder {
+    margin: 15px;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #101019;
+    padding-top: 10px;
     
-}
 }
 
-.profilepic {
-    
-    padding-left: 25px;
-}
-    
 
 .profilepic img{
-    border-radius: 50%;
+   border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    max-height: 300px;
+    width: 300px;
+    
     
 }
 
 .introduction {
     color: #f2f0e4;
-    font-size: smaller;
     font-weight: 200;
     vertical-align: middle;
     text-align: left;
 }
 
-img {
+.reviews {
+    padding: 20px;
+}
+.reviewsborder {
+     margin: 15px;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #9B9DC0;
+}
+
+.reviewerpic{
+    padding: 30px 10px;
+}
+
+.reviewerpic img {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: right;
+    height: 200px;
     max-width: 200px;
-    border-radius: 50%
-;
+}
+
+.reviewercomment {
+    padding: 80px 10px;
 }
