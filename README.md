@@ -99,3 +99,6 @@ Use of bootstrap and font awesome.
 
 used https://maxpelic.com/blog/post/css-only-menu/ to create the menu and adjusted it to my needs.
 
+Debugging - website wasn't showing up in full when viewing in mobile. Adding a user-scalable=0 and maximum scale=1 helped fix that.
+
+The regina photo not sizing down with rest of website.

@@ -1,19 +1,21 @@
-
 /*--------------------------color----------------------------------*/
 
 body {
     background-color: #9B9DC0;
 }
 
-p {
+h1, h3, p {
     color: #f2f0e4;
+}
+
+.navbar-toggler-icon {
+    color: #f2f0e4;
+    
 }
 
 .reviews {
     background-color: #101019;
 }
-
-
 
 /*--------------------------General----------------------------------*/
 
@@ -22,43 +24,36 @@ p {
 }
 
 
-/*--------------------------Hero image and text----------------------------------*/
 
-body{
-    margin: 0;
+/*-----------------------hero image and text--------------------------*/
+
+.hero {
+    position: relative;
+    text-align: center;
 }
-
-header {
-    min-height: 100%;
-    background-size: cover;
-}
-
 
 .hero-image {
-    background-image: url("../images/roof_puppies.jpg");
-    min-height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding: 0;
+}
+
+.hero-image img{
+    position: relative;
+  max-width: 100%;
+  height: auto;
 }
 
 .hero-text {
-    font-family: 'Ralway', sans-serif;
-    margin: 0;
-    color: #f2f0e4;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 150px;
-    text-shadow: 1px 1px 15px #101019;
-
-   
+  font-family: 'Ralway', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1, h3 {
     font-weight: 500;
     margin: 0;
 }
-
 
 h1 {
   
@@ -70,88 +65,48 @@ h2{
 }
 
 
-/*--------------------------Menu ----------------------------------*/
-
+/*-----------------------nav bar--------------------------*/
 .menu {
+  position: fixed; 
+  z-index: 1 ;
+  background: none;
+      top: 1%;
+    right: 1%;
     font-family: 'Ralway', sans-serif;
-    text-shadow: 0.5px 0.5px 10px #101019;
 }
 
-a {
-    color: #f2f0e4;
-    text-decoration: none;
 
-}
-/*--------------------------https://maxpelic.com/blog/post/css-only-menu/ ----------------------------------*/
-nav input{
-    display: none;
+button:focus {
+    outline: none;
 }
 
-nav input:checked ~ label i:first-child{
-   display:none;
-}
-nav input:not(:checked) ~ label i:last-child{
-   display:none;
+.nav-item a {
+    color: #f2f0e4;;
 }
 
-nav{
-   position:fixed;
-   top:20px;
-   right:60px;
-   min-width:40px;
-   min-height:40px;
-   overflow:hidden;
+/*-----------------------About me--------------------------*/
+
+.aboutme {
+    padding: 20px;
 }
-
-nav ul{
-    overflow: hidden;
-    width: 0;
-    height: 0;
-    padding: 0%;
-    margin: 0;
-    transition: height 0.3s;
-    list-style: none;
-}
-
-nav input:checked  ~ ul{
-    width:70px;
-    height: 90px;
-}
-
-.menuicons {
-    color: #f2f0e4;
-    float: right;
-    text-shadow: 1px 1px 15px #1F2032;
-}
-
-/*--------------------------About Me----------------------------------*/
-
-
-
 
 .purpborder {
-    margin: 15px;
-    padding: 20px;
+    padding: 5px;
     border-style: solid;
     border-radius: 15px;
     border-width: 1px;
     border-color: #101019;
-    padding-top: 10px;
-    
 }
 
-
-.profilepic img{
-   border-radius: 50%;
-    object-fit: cover;
-    object-position: top;
+.profilepic img {
+    border-radius: 50%;
     max-height: 300px;
-    width: 300px;
-    
-    
-}
+
+}   
+
 
 .introduction {
+    margin: 15px;
     color: #f2f0e4;
     font-weight: 200;
     vertical-align: middle;
@@ -161,27 +116,25 @@ nav input:checked  ~ ul{
 .reviews {
     padding: 20px;
 }
+
 .reviewsborder {
-     margin: 15px;
-    padding: 20px;
+   
     border-style: solid;
     border-radius: 15px;
     border-width: 1px;
     border-color: #9B9DC0;
+    padding: 5px;
 }
 
-.reviewerpic{
-    padding: 30px 10px;
-}
 
 .reviewerpic img {
     border-radius: 50%;
     object-fit: cover;
     object-position: right;
-    height: 200px;
     max-width: 200px;
+    height: 200px;
 }
 
 .reviewercomment {
-    padding: 80px 10px;
+    vertical-align: center;
 }
