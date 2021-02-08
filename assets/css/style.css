@@ -4,7 +4,7 @@ body {
     background-color: #d8cfaf;
 }
 
-h1, h3, p {
+h1, h3, h4, h6, p {
     color: #f2f0e4;
 }
 
@@ -17,14 +17,19 @@ h1, h3, p {
     background-color: #3A5A40;
 }
 
+.indpackages {
+    color: #f2f0e4;
+}
+
 /*--------------------------General----------------------------------*/
 
 p {
     font-size: smaller;
 }
 
-h1, h3, p {
-    font-family:'Ralway', sans-serif;;
+h1, h3, h4, p {
+    font-family:'Ralway', sans-serif;
+    
 }
 
 
@@ -182,4 +187,22 @@ button:focus {
     border-radius: 20px;
     max-width:  300px;
     padding: 10px;
+}
+
+
+
+/*-----------------------Services--------------------------*/
+
+.borderspace{
+    padding: 20px;
+}
+
+.packages {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
