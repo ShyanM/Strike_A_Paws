@@ -23,6 +23,10 @@ p {
     font-size: smaller;
 }
 
+h1, h3, p {
+    font-family:'Ralway', sans-serif;;
+}
+
 
 
 /*-----------------------hero image and text--------------------------*/
@@ -137,3 +141,31 @@ button:focus {
     height: 200px;
 }
 
+/*-----------------------contact--------------------------*/
+
+.contact-form{
+    margin: 20px;
+}
+
+.getintouch {
+    text-align: center;
+}
+
+.contact {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.placeholder {
+    font-family: 'Ralway', sans-serif;
+    
+}
+
+.btn {
+    background-color: #d8cfaf;
+    
+}
+
+.btn:hover {
+    background-color: #D0C59F;
+}
