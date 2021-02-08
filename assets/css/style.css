@@ -169,3 +169,17 @@ button:focus {
 .btn:hover {
     background-color: #D0C59F;
 }
+
+/*-----------------------gallery--------------------------*/
+
+.galleryphotos {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.galleryphotos img {
+    border-radius: 20px;
+    max-width:  300px;
+    padding: 10px;
+}
