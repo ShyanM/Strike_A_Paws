@@ -1,7 +1,7 @@
 /*--------------------------color----------------------------------*/
 
 body {
-    background-color: #9B9DC0;
+    background-color: #d8cfaf;
 }
 
 h1, h3, p {
@@ -14,7 +14,7 @@ h1, h3, p {
 }
 
 .reviews {
-    background-color: #101019;
+    background-color: #3A5A40;
 }
 
 /*--------------------------General----------------------------------*/
@@ -40,6 +40,7 @@ p {
     position: relative;
   max-width: 100%;
   height: auto;
+  
 }
 
 .hero-text {
@@ -48,6 +49,13 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.textborder {
+    border-style: solid;
+    border-color: #f2f0e4;
+    background-color: rgba(59, 90, 64, 0.8);
+    
 }
 
 h1, h3 {
@@ -88,19 +96,15 @@ button:focus {
 
 .aboutme {
     padding: 20px;
+   
 }
 
-.purpborder {
-    padding: 5px;
-    border-style: solid;
-    border-radius: 15px;
-    border-width: 1px;
-    border-color: #101019;
-}
 
 .profilepic img {
     border-radius: 50%;
     max-height: 300px;
+    width: 300px;
+    object-fit: cover;
 
 }   
 
@@ -111,21 +115,19 @@ button:focus {
     font-weight: 200;
     vertical-align: middle;
     text-align: left;
+    
 }
+.border {
+    background-color: #3a5a40;
+    padding: 20px;
+    border-radius: 25px;
+    border-style: none;
+}
+
 
 .reviews {
-    padding: 20px;
+    padding: 30px;
 }
-
-.reviewsborder {
-   
-    border-style: solid;
-    border-radius: 15px;
-    border-width: 1px;
-    border-color: #9B9DC0;
-    padding: 5px;
-}
-
 
 .reviewerpic img {
     border-radius: 50%;
@@ -135,6 +137,3 @@ button:focus {
     height: 200px;
 }
 
-.reviewercomment {
-    vertical-align: center;
-}
