@@ -121,7 +121,9 @@ button:focus {
 }
 
 
+
 .profilepic img {
+    
     border-radius: 50%;
     max-height: 300px;
     width: 300px;
@@ -145,6 +147,8 @@ button:focus {
     border-style: none;
 }
 
+/*-----------------------Reviews--------------------------*/
+
 
 .reviews {
     padding: 30px;
@@ -156,6 +160,12 @@ button:focus {
     object-position: right;
     max-width: 200px;
     height: 200px;
+
+}
+
+.reviewercomment {
+     padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 /*-----------------------contact--------------------------*/
@@ -190,16 +200,19 @@ button:focus {
 /*-----------------------gallery--------------------------*/
 
 .galleryphotos {
-    padding: 20px;
-    text-align: center;
+    padding: 0;
+    
 }
 
 
 .galleryphotos img {
-    border-radius: 20px;
-    max-width:  300px;
-    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+    
 }
+    
 
 
 
