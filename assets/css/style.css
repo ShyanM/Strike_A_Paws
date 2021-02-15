@@ -251,8 +251,31 @@ button:focus {
     padding: 20px;
 }
 
+
+/*box shadow aid from https://www.w3schools.com/css/css3_shadows_box.asp */
+.indpackages {
+    background-color: rgba(114 , 61, 70, 1) ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    margin: 20px;
+    padding-top: 30px;
+    max-width: 250px;
+    width: 100%;
+    height: 500px;
+    
+}
+
+.indpackages h6 {
+    background-color: #3a5a40;
+    padding: 20px;
+    max-width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50px;
+}
+
 .packages {
     text-align: center;
+    line-height: 2;
 }
 
 ul {
