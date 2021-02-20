@@ -24,7 +24,7 @@ h1, h3, h4, h6, p {
 /*--------------------------General----------------------------------*/
 
 p {
-    font-size: smaller;
+    font-size: small;
 }
 
 h1, h3, h4, p {
@@ -88,10 +88,10 @@ h3{
 
 /*-----------------------nav bar--------------------------*/
 .menu {
-  position: fixed; 
-  z-index: 1 ;
-  background: none;
-      top: 1%;
+    position: fixed; 
+    z-index: 1 ;
+    background: none;
+    top: 1%;
     right: 1%;
     font-family: 'Ralway', sans-serif;
 }
@@ -111,6 +111,18 @@ button:focus {
 .nav-item a {
     color: #f2f0e4;;
     font-weight: 200;
+}
+
+/*-----------------------Header--------------------------*/
+.pageicon{
+    position: absolute;
+    top: 18px;
+    left: 16px;
+}
+
+.pageicon a{
+    color: #f2f0e4;
+    font-size: large;
 }
 
 /*-----------------------About me--------------------------*/
@@ -198,6 +210,15 @@ button:focus {
 }
 
 /*-----------------------gallery--------------------------*/
+
+.gallery-message {
+padding: 30px;
+background-color: rgba(114 , 61, 70, 0.8);
+}
+
+.gallery-message a {
+    color: #3A5A40;
+}
 
 .galleryphotos {
     padding: 0;
