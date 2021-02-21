@@ -1,25 +1,22 @@
 /*--------------------------color----------------------------------*/
 
 body {
-    background-color: #d8cfaf;
+    background-color: #FCF4E9;
 }
 
-h1, h3, h4, h6, p {
-    color: #f2f0e4;
+h1, h3{
+    color:#FCF4E9;
+} 
+
+
+h4, h6, p {
+    color: #504956;
 }
 
 .navbar-toggler-icon {
-    color: #f2f0e4;
-    
+    color: #FCF4E9  
 }
 
-.reviews {
-    background-color: #3A5A40;
-}
-
-.indpackages {
-    color: #f2f0e4;
-}
 
 /*--------------------------General----------------------------------*/
 
@@ -31,8 +28,6 @@ h1, h3, h4, p {
     font-family:'Ralway', sans-serif;
     
 }
-
-
 
 /*-----------------------hero image and text--------------------------*/
 
@@ -61,14 +56,10 @@ h1, h3, h4, p {
 }
 
 .textborder {
-    border-style: solid;
-    border-color: #f2f0e4;
-    border-width: 1px;
-    background-color: rgba(59, 90, 64, 0.8);
+   
+    background-color: rgba(55, 53, 56, 0.8);
     overflow: hidden;
-    padding: 5px;
-    
-    
+    padding: 5px; 
 }
 
 h1, h2 {
@@ -76,13 +67,11 @@ h1, h2 {
 }
 
 h1 {
-  
     font-size: 8vw;
 }
 
 h3{
     font-size: 6vw;
-
 }
 
 
@@ -101,7 +90,7 @@ h3{
 }
 
 .navbar-collapse {
-    background-color:  rgba(59, 90, 64, 0.8);
+    background-color:  rgba(55, 53, 56, 0.8);
 }
 
 button:focus {
@@ -132,12 +121,7 @@ button:focus {
    
 }
 
-
-
 .profilepic img {
-    
-    border-radius: 50%;
-    max-height: 300px;
     width: 300px;
     object-fit: cover;
 
@@ -146,18 +130,19 @@ button:focus {
 
 .introduction {
     margin: 15px;
-    color: #f2f0e4;
     font-weight: 200;
     vertical-align: middle;
-    text-align: left;
-    
+    text-align: right;
 }
-.border {
-    background-color: #3a5a40;
-    padding: 20px;
-    border-radius: 25px;
-    border-style: none;
+
+.introduction {
+    background: #e5c8b7;
 }
+
+.introduction p a {
+    color: #f2f0e4;
+}
+
 
 /*-----------------------Reviews--------------------------*/
 
@@ -166,12 +151,19 @@ button:focus {
     padding: 30px;
 }
 
+.reviewborder {
+     background: #bdbad0;
+     padding: 20px;
+}
+
+
 .reviewerpic img {
     border-radius: 50%;
     object-fit: cover;
     object-position: right;
     max-width: 200px;
     height: 200px;
+   margin: 10px;
 
 }
 
@@ -182,12 +174,16 @@ button:focus {
 
 /*-----------------------contact--------------------------*/
 
+
 .contact-form{
     margin: 20px;
 }
 
 .getintouch {
     text-align: center;
+    background: #e5c8b7;
+    margin: 20px;
+    padding: 15px;
 }
 
 .contact {
@@ -201,23 +197,28 @@ button:focus {
 }
 
 .btn {
-    background-color: #d8cfaf;
+    background-color: #bdbad0;
     
 }
 
 .btn:hover {
-    background-color: #D0C59F;
+    background-color: #504956;
 }
 
 /*-----------------------gallery--------------------------*/
 
 .gallery-message {
-padding: 30px;
-background-color: rgba(114 , 61, 70, 0.8);
+background: #e5c8b7;
+margin: 20px;
+padding: 15px;
+}
+
+.gallery-message p {
+    margin: 0;
 }
 
 .gallery-message a {
-    color: #3A5A40;
+    color: #FCF4E9;
 }
 
 .galleryphotos {
@@ -232,7 +233,7 @@ background-color: rgba(114 , 61, 70, 0.8);
 }
 
 .pricesborder {
-    background-color: rgba(114 , 61, 70, 0.8);
+    background-color: rgba(189, 186, 208, 0.8);
     padding: 8px;
     padding-left: 30px;
     padding-right: 30px;
@@ -275,7 +276,7 @@ background-color: rgba(114 , 61, 70, 0.8);
 
 /*box shadow aid from https://www.w3schools.com/css/css3_shadows_box.asp */
 .indpackages {
-    background-color: rgba(114 , 61, 70, 1) ;
+    background: #e5c8b7;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px;
     margin: 20px;
@@ -287,7 +288,7 @@ background-color: rgba(114 , 61, 70, 0.8);
 }
 
 .indpackages h6 {
-    background-color: #3a5a40;
+    background-color: #bdbad0;
     padding: 20px;
     max-width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -307,9 +308,5 @@ ul {
 
 /*-----------------------Media Queries--------------------------*/
 
-@media only screen and (max-width: 600px) {
-    .hero-text{
-        width: 80%;
-    }
-   
-}
+
+
