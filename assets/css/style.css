@@ -137,6 +137,11 @@ button:focus {
 
 .introduction {
     background: #e5c8b7;
+    padding: 20px;
+}
+
+.introduction p {
+    margin: 0;
 }
 
 .introduction p a {
@@ -273,26 +278,25 @@ padding: 15px;
     padding: 20px;
 }
 
-
-/*box shadow aid from https://www.w3schools.com/css/css3_shadows_box.asp */
-.indpackages {
+.title {
     background: #e5c8b7;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 8px;
+    padding: 20px;
+}
+
+
+.indpackages {
+    
     margin: 20px;
-    padding-top: 30px;
+    padding: 0px;
     max-width: 250px;
     width: 100%;
-    height: 500px;
+    height: auto;
     
 }
 
 .indpackages h6 {
     background-color: #bdbad0;
     padding: 20px;
-    max-width: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 50px;
 }
 
 .packages {
@@ -303,7 +307,7 @@ padding: 15px;
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 /*-----------------------Media Queries--------------------------*/

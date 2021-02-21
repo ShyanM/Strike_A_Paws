@@ -1,6 +1,6 @@
 # Strike a Paws!
 
-This aim of this project is to create a website for Regina Phalange's pet photography business - Strike a Paws!. The website will provide potential customers a platform to view Regina's work, purchase her work and contact for a consultation/booking.
+This aim of this project is to create a website for Regina's pet photography business - Strike a Paws!. The website will provide potential customers a platform to view Regina's work, purchase her work and contact for a consultation/booking.
 
 ## <ins>Contents </ins>
 1. UX
@@ -84,6 +84,16 @@ Colour scheme - #F2F0E4
 
 ## 2. Features
 ## 3. Technologies used
+
+- HTML5
+    - The project uses HTML5 as a basis of the website.
+
+- CSS4
+    - This project uses CSS4 to beautify the website.
+
+- Bootstrap
+    - This project uses Bootstrap 
+    
 ## 4. Testing
 ## 5. Deployment
 ## 6. Credits
