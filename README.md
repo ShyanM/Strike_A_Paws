@@ -73,13 +73,13 @@ Colour scheme - #F2F0E4
 ### Wireframes
 
 - Home
-![alt text](./assets/wireframe/Home.png)
+![alt text](./wireframes/home.png)
 - Gallery
-![alt text](./assets/wireframe/Gallery.png)
+![alt text](./wireframes/gallery.png)
 - Services
-![alt text](./assets/wireframe/Services.png)
+![alt text](./wireframes/services.png)
 - Contact
-![alt text](./assets/wireframe/Contact.png)
+![alt text](./wireframes/contact.png)
 
 
 ## 2. Features

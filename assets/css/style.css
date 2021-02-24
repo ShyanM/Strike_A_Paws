@@ -1,3 +1,12 @@
+/*--------------------------General----------------------------------*/
+h1, h3, h4, p {
+    font-family:'Ralway', sans-serif;
+}
+
+html, body, header, section {
+    height: 100%;
+}
+
 /*--------------------------color----------------------------------*/
 
 body {
@@ -18,60 +27,33 @@ h4, h6, p {
 }
 
 
-/*--------------------------General----------------------------------*/
-
-p {
-    font-size: small;
-}
-
-h1, h3, h4, p {
-    font-family:'Ralway', sans-serif;
-    
-}
-
 /*-----------------------hero image and text--------------------------*/
 
+.parallax {
+background-image: url(../images/basket.jpg);
+height: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
 .hero {
-    position: relative;
+    height: 100%;
+}
+
+.heading {
     text-align: center;
 }
 
-.hero-image {
-    padding: 0;
-}
-
-.hero-image img{
-    position: relative;
-  max-width: 100%;
-  height: auto;
-  
-}
-
-.hero-text {
-  font-family: 'Ralway', sans-serif;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.textborder {
-   
-    background-color: rgba(55, 53, 56, 0.8);
-    overflow: hidden;
-    padding: 5px; 
-}
-
-h1, h2 {
-    font-weight: 300;
-}
-
 h1 {
-    font-size: 8vw;
+    font-size: 11vw;
+    font-weight: 800;
 }
 
-h3{
+h3 {
     font-size: 6vw;
+    font-weight: 600;
 }
 
 
@@ -103,214 +85,13 @@ button:focus {
 }
 
 /*-----------------------Header--------------------------*/
-.pageicon{
+.paw_icon{
     position: absolute;
     top: 18px;
     left: 16px;
 }
 
-.pageicon a{
+.paw_icon a{
     color: #f2f0e4;
     font-size: large;
 }
-
-/*-----------------------About me--------------------------*/
-
-.aboutme {
-    padding: 20px;
-   
-}
-
-.profilepic img {
-    width: 300px;
-    object-fit: cover;
-
-}   
-
-
-.introduction {
-    margin: 15px;
-    font-weight: 200;
-    vertical-align: middle;
-    text-align: right;
-}
-
-.introduction {
-    background: #e5c8b7;
-    padding: 20px;
-}
-
-.introduction p {
-    margin: 0;
-}
-
-.introduction p a {
-    color: #f2f0e4;
-}
-
-
-/*-----------------------Reviews--------------------------*/
-
-
-.reviews {
-    padding: 30px;
-}
-
-.reviewborder {
-     background: #bdbad0;
-     padding: 20px;
-}
-
-
-.reviewerpic img {
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: right;
-    max-width: 200px;
-    height: 200px;
-   margin: 10px;
-
-}
-
-.reviewercomment {
-     padding-bottom: 15px;
-    padding-top: 15px;
-}
-
-/*-----------------------contact--------------------------*/
-
-
-.contact-form{
-    margin: 20px;
-}
-
-.getintouch {
-    text-align: center;
-    background: #e5c8b7;
-    margin: 20px;
-    padding: 15px;
-}
-
-.contact {
-    margin-top: 20px;
-    padding: 20px;
-}
-
-.placeholder {
-    font-family: 'Ralway', sans-serif;
-    
-}
-
-.btn {
-    background-color: #bdbad0;
-    
-}
-
-.btn:hover {
-    background-color: #504956;
-}
-
-/*-----------------------gallery--------------------------*/
-
-.gallery-message {
-background: #e5c8b7;
-margin: 20px;
-padding: 15px;
-}
-
-.gallery-message p {
-    margin: 0;
-}
-
-.gallery-message a {
-    color: #FCF4E9;
-}
-
-.galleryphotos {
-    padding: 0;
-}
-
-.galleryphotos img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    
-}
-
-.pricesborder {
-    background-color: rgba(189, 186, 208, 0.8);
-    padding: 8px;
-    padding-left: 30px;
-    padding-right: 30px;
-    opacity: 0;
-}
-
-/*positioning of image with the help of w3schools (https://www.w3schools.com/howto/howto_css_image_text.asp) */
-
-
-.prices {
-    position: absolute;
-    bottom: 0px;
-    right: 30px;
-}
-
-/*positioning of image with the help of w3schools (https://www.w3schools.com/howto/howto_css_image_overlay_title.asp) */
-
-.galleryphotos:hover .pricesborder{
-    opacity: 1;
-}
-
-.prices h6 {
-    margin-bottom: 3px;
-    text-align: center;
-}
-
-.prices p {
-    margin: 0;
-    text-align: center;
-}
-
-
-
-/*-----------------------Services--------------------------*/
-
-.borderspace{
-    padding: 20px;
-}
-
-.title {
-    background: #e5c8b7;
-    padding: 20px;
-}
-
-
-.indpackages {
-    
-    margin: 20px;
-    padding: 0px;
-    max-width: 250px;
-    width: 100%;
-    height: auto;
-    
-}
-
-.indpackages h6 {
-    background-color: #bdbad0;
-    padding: 20px;
-}
-
-.packages {
-    text-align: center;
-    line-height: 2;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-}
-
-/*-----------------------Media Queries--------------------------*/
-
-
-
