@@ -74,6 +74,10 @@ background-size: cover;
     padding-right: 0;
 }
 
+.navbar-nav {
+    text-align: center;
+}
+
 .navbar-collapse {
     background-color:  rgba(55, 53, 56, 0.8);
 }
@@ -116,16 +120,51 @@ button:focus {
 }
 
 .introduction h4{
-    font-size: 20vw;
-}
-
-.introduction p{
-    font-size: 5vw;
+    font-size: xxx-large;
 }
 
 .introduction a {
     color: #FCF4E9;
 }
+
+
+.image_break{
+    background-image: url(https://images.pexels.com/photos/2693561/pexels-photo-2693561.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*-----------------------Reviews--------------------------*/
+
+.review_background{
+    background: #bdbad0;
+}
+
+.reviews {
+    padding: 30px;
+}
+
+
+
+
+.reviewerpic img {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: right;
+    max-width: 200px;
+    height: 200px;
+   margin: 10px;
+
+}
+
+.reviewercomment {
+     padding-bottom: 15px;
+    padding-top: 15px;
+}
+
 
 /*-----------------------Media Queries--------------------------*/
 
@@ -149,11 +188,11 @@ button:focus {
     }
     
     .introduction h4{
-        font-size: 5vw;
+        font-size: xxx-large;
     }
 
     .introduction p{
-        font-size: 2vw;
+        font-size: xx-large;
     }
 
 
