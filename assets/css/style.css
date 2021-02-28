@@ -49,13 +49,11 @@ background-size: cover;
 }
 
 .heading h1 {
-    font-size: 11vw;
     font-weight: 400;
     text-shadow: 1px 1px 10px #504956;
 }
 
 .heading h3 {
-    font-size: 7vw;
     font-weight: 400;
     text-shadow: 1px 1px 10px #504956;
 }
@@ -140,15 +138,20 @@ button:focus {
 /*-----------------------Reviews--------------------------*/
 
 .review_background{
-    background: #bdbad0;
+    background: #bad0c8;
 }
 
 .reviews {
     padding: 30px;
 }
 
+.reviewerpic img{
 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
+}
 
 .reviewerpic img {
     border-radius: 50%;
@@ -156,13 +159,16 @@ button:focus {
     object-position: right;
     max-width: 200px;
     height: 200px;
-   margin: 10px;
 
 }
 
-.reviewercomment {
-     padding-bottom: 15px;
-    padding-top: 15px;
+.star_rating {
+    color: #504956;
+}
+
+.reviewcomment {
+   text-align: center;
+   padding-top: 10px;
 }
 
 
@@ -182,6 +188,15 @@ button:focus {
 
 
 @media only screen and (min-width: 992px){
+    
+    .heading h1 {
+        font-size: 150px;
+    }
+
+    .heading h3 {
+        font-size: 100px;
+    }
+    
     
     .introduction{
         text-align: end;
