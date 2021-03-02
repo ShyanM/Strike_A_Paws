@@ -1,3 +1,6 @@
+
+![alt text](./wireframes/mockup.png)
+
 # Strike a Paws!
 
 This aim of this project is to create a website for Regina's pet photography business - Strike a Paws!. The website will provide potential customers a platform to view Regina's work, purchase her work and contact for a consultation/booking.
@@ -65,10 +68,7 @@ As a customer I want:
 
 ### Design Choices
 
-Colour scheme - #F2F0E4 
-#042A2B
-#9AABB3
-#855A5C
+The main aim for the design is to give a platform for Regina's work to shine. This is why I used a minimalistic approach with design where the photos are the first thing to catch the eyes. I used 
 
 ### Wireframes
 

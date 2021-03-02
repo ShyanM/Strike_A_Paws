@@ -66,6 +66,7 @@ background-size: cover;
     top: 10px;
     right: 6px;
     font-family: 'Ralway', sans-serif;
+    z-index: 9999;
 }
 
 .button {
@@ -94,6 +95,7 @@ button:focus {
     position: fixed;
     top: 18px;
     left: 16px;
+    z-index: 9999;
 }
 
 .paw_icon a{
@@ -213,7 +215,7 @@ background-size: cover;
 
 
 .cards {
-    padding-top: 50px;
+    height: 100%;
 }
 
 .card_outline {
@@ -255,6 +257,7 @@ background-size: cover;
 .card-footer {
 
     background-color: #BAD0C8;
+    border: 0;
 }
 
 /*-----------------------Contact--------------------------*/
@@ -271,7 +274,7 @@ background-size: cover;
 
 
 .full_form {
-    padding-top: 20px;
+    height: 100%;
 }
 
 .background {
