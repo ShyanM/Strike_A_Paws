@@ -36,7 +36,6 @@ Customer's goals are:
 
 - to see Regina's portfolio.
 - to see other customer's reviews.
-- to be able to purchase her photography.
 - to contact Regina for a consultation or photoshoot.
 - to see the services offered.
 - to learn more about the photographer.
@@ -48,7 +47,6 @@ Customer's goals are:
 - to drum up new business.
 - to have a site to point potential customers to.
 - increase photoshoot bookings.
-- Increase sales of product.
 
 ### Developer Goals
 
@@ -60,7 +58,6 @@ Customer's goals are:
 As a customer I want:
 
 - to be able to see various photos so that I know how mine can turn out.
-- to be able to purchase a photograph I like.
 - to be able to navigate with ease through pages.
 - to see the prices so I can see if the service is affordable.
 - an easy way to contact the photographer.
@@ -68,47 +65,108 @@ As a customer I want:
 
 ### Design Choices
 
-The main aim for the design is to give a platform for Regina's work to shine. This is why I used a minimalistic approach with design where the photos are the first thing to catch the eyes. I used 
+* Colour Scheme
+
+![alt text](./wireframes/colourscheme.png)
+
+I chose this colour scheme because I wanted the photos to be the main attraction and this soft colour scheme helps with that. 
+The seashell colour was used for the background of all pages as well as the white colour of text.
+The dark liver colour was used instead of a black, so that the font was a little softer and fit in with the theme. It was also used as a shadow because it provided a softer shadow than black.
+All three colours were used to highlight important parts and to bring all pages together with the colour scheme.
+
+* Images
+
+The images used were all sourced from Pexels.com. Since it's a photography website the images were what made the website. That's why I chose the most outstanding photos for the hero images as well as the gallery.
+
 
 ### Wireframes
 
-- Home
-![alt text](./wireframes/home.png)
-- Gallery
-![alt text](./wireframes/gallery.png)
-- Services
-![alt text](./wireframes/services.png)
-- Contact
-![alt text](./wireframes/contact.png)
+- [Home](./wireframes/home.png)
+- [Gallery](./wireframes/gallery.png)
+- [Services](./wireframes/services.png)
+- [Contact](./wireframes/contact.png)
+
+while the initial plan for the website was to have only a hero image in the landing page, it was decided to create a hero image for each page, to show off more of Regina's photography as well as to keep all pages consistent.
 
 
 ## 2. Features
+
+* Navigation 
+
+This allows the user to navigate through different pages.
+
+* Paw Icon
+
+This gives the user an easy access to the home page without having to use the navigation bar.
+
+* Services section
+
+This allows the user to see the packages on offer.
+
+* Contact page
+
+This allows customers to get in contact with Regina.
+
+* Features to implement in the future
+
+The selling of both Regina's prints as well as her packages with a click of a button.
+
+
 ## 3. Technologies used
 
-- HTML5
-    - The project uses HTML5 as a basis of the website.
+* Languages
+    
+    * HTML5
+    * CSS3 
 
-- CSS4
-    - This project uses CSS4 to beautify the website.
+* Frameworks and libraries
 
-- Bootstrap
-    - This project uses Bootstrap 
+    * Bootstrap4
+    * Font Awesome icons
+    * Google fonts
+
+* Workspace and version control
+
+    * Github
+    * Gitpod
+
+* Wireframes
+
+    * Balsamiq
+   
     
 ## 4. Testing
 ## 5. Deployment
 ## 6. Credits
  
 ### Content
-Name and picture of photographer are taken from the tv show Friends.
 
-Images of pets have been sourced from pexels.com
+* All images have been sourced from pexels.com
 
-Fonts used are Kalam for Main titles and Raleway for the rest of the text. Both fonts are from google fonts.
+* Font used is Raleway from google fonts.
 
-Use of bootstrap and font awesome.
+* Fontawesome.com for paw and menu icons.
 
-used https://maxpelic.com/blog/post/css-only-menu/ to create the menu and adjusted it to my needs.
+* Htmlcolorcodes.com and coolors.co to pick colour scheme.
 
-Debugging - website wasn't showing up in full when viewing in mobile. Adding a user-scalable=0 and maximum scale=1 helped fix that.
+* copied last review comment from this site https://eatsleepwander.com/photographer-review-examples/2/
 
-The regina photo not sizing down with rest of website.
+
+### Code
+
+* General
+
+    * Bootstrap website for general aid with bootstrap framework.
+    * W3Schools 
+    * CSS tricks
+
+
+* Specific code 
+
+    * Bootstrap to create collapsable menu
+    * https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp to create the gallery
+    * https://forum.freecodecamp.org/t/why-is-my-navbar-behind-other-content/62059 to have the header be on top in all sections.
+    * https://www.w3schools.com/howto/howto_css_image_text.asp to align text on images.
+
+
+
