@@ -158,38 +158,8 @@ The website has 4 pages that users can reach easily. It also has a fifth page th
     * Balsamiq
    
     
-## 4. Testing
+## 4. [Testing](./TESTING.md)
 
-### User Stories
-
-As a customer I want to be able to see various photos so that I know how mine can turn out.
-
-1. When a customer clicks on the link to the website they go on the landing page.
-2. Top right is a hamburger menu, when clicked on it opens up and has 4 page option.
-3. The customer can click on the Gallery option which will take them to the Gallery page.
-4. Here they will see a mixture of pictures of pets from previous photoshoots.
-5. If visiting on a large screen, the pictures zoom out to create a more dynamic web page.
-
-As a customer I want to be able to navigate with ease through pages.
-
-1. As a customer you have a collapsed menu on the top right, on all pages that is not sticky so you don't need to go back to top of the page to find it.
-2. Top left, customers can find a paw icon which when clicked takes them back to the homepage.
-
-
-As a customer I want to see the prices so I can see if the service is affordable.
-
-1. The customer can find the prices by clicking on the menu and then clicking services.
-2. In the services page they can find the three packages with a link each that takes them to the contact page to enquire about the packages.
-
-As a customer I want an easy way to contact the photographer.
-
-1. The customer can contact the photographer by going to the menu and clicking contact.
-2. On the contact page the customer can find a form where they can add their details and their message and submit it.
-3. The customer can also be led to the contact page from the services page, where there's a contact link in the initial paragraph as well as an enquire button on each package card.
-
-As a customer I want to see other people's experiences and reviews.
-
-1. Customers can find people's reviews on the home page at the bottom after being introduced to Regina.
 
 
 ## 5. Deployment
@@ -202,7 +172,7 @@ To deploy the Github pages, I did the following steps:
  * Named it Strike_A_Paws.
  * Under the repository name, I clicked settings.
  * Then in settings I went to the Github Pages and changed the none drop down menu to main.
- * I thekn clicked save and the website was deployed.
+ * I then clicked save and the website was deployed.
 
 
  To run my code locally you need to EITHER :
