@@ -181,9 +181,11 @@ The website has 4 pages that users can reach easily. It also has a fifth page th
 
 * General
 
-    * Bootstrap website for general aid with bootstrap framework.
-    * W3Schools 
-    * CSS tricks
+    * [Bootstrap](https://getbootstrap.com)
+    * [W3Schools](https://www.w3schools.com) 
+    * [CSS tricks](https://css-tricks.com)
+    * [Free Code Camp](https://www.freecodecamp.org)
+
 
 
 * Specific code 
@@ -195,7 +197,7 @@ The website has 4 pages that users can reach easily. It also has a fifth page th
     * [Parallax effect](https://www.w3schools.com/howto/howto_css_parallax.asp)
     * [Hover and zoom effect on images](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
     * [Media Queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
-    * [form with the help of bootstrap as well as code insititute tutors](https://getbootstrap.com/docs/4.0/components/forms/)
+    * [Form with the help of bootstrap as well as code insititute tutors](https://getbootstrap.com/docs/4.0/components/forms/)
 
 
 
