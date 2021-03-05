@@ -30,6 +30,9 @@ h4, h6, p {
 
 /*-----------------------hero image and text--------------------------*/
 
+
+/*--parrallax effect created with the help of https://www.w3schools.com/howto/howto_css_parallax.asp---*/
+
 .parallax_index {
 background-image: url(../images/basket.jpg);
 height: 100%;
@@ -91,6 +94,8 @@ button:focus {
 }
 
 /*-----------------------Header--------------------------*/
+
+/*--zindex from https://forum.freecodecamp.org/t/why-is-my-navbar-behind-other-content/62059--*/
 .paw_icon{
     position: fixed;
     top: 18px;
@@ -202,6 +207,16 @@ background-size: cover;
     width: 100%;
 }
 
+/*--Hover created with the help of https://www.w3schools.com/howto/howto_css_zoom_hover.asp--*/
+
+.column img {
+    transition: transform .2s;
+}
+
+.column img:hover {
+    transform: scale(1.1);
+}
+
 /*-----------------------Services--------------------------*/
 
 .parallax_services{
@@ -213,22 +228,38 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+.background_services {
+background-color: #BAD0C8;
+padding: 20px;
+}
+
+.message {
+    background-color:  #FCF4E9;
+    margin: 50px 0;
+    padding: 50px;
+}
 
 .cards {
     height: 100%;
 }
 
+.card {
+    border: 0;
+    border-radius: 0;
+    background: 0;
+}
+
 .card_outline {
     border: 0;
     border-radius: 0;
-    background: none;
+    background: 0;
 }
+    
 
 .card-title {
     padding: 30px;
     margin: 0;
-
-     border: 0;
+    border: 0;
     border-radius: 0;
     background: #504956;
     color: #FCF4E9;
@@ -237,11 +268,8 @@ background-size: cover;
 
 .card-body {
     padding: 0;
+    background-color:  #FCF4E9;
     
-}
-
-.card-body btn {
-    position: sticky;
 }
 
 .card-body ul {
@@ -254,10 +282,24 @@ background-size: cover;
     margin: 30px 0;
 }
 
+.prices {
+    padding-top: 60px;
+   
+}
+
+.message a {
+    color: #BAD0C8;
+}
+
 .card-footer {
 
-    background-color: #BAD0C8;
-    border: 0;
+    
+    background: none;
+    border: none;
+}
+
+.card-footer a {
+color: #FCF4E9;
 }
 
 /*-----------------------Contact--------------------------*/
@@ -274,7 +316,7 @@ background-size: cover;
 
 
 .full_form {
-    height: 100%;
+   padding-top: 100px;
 }
 
 .background {
@@ -298,6 +340,20 @@ background-size: cover;
     background-color: #504956;
 }
 
+/*-----------------------Thank You Message--------------------------*/
+
+
+
+.parallax_thankyou {
+background-image: url(https://images.pexels.com/photos/3628100/pexels-photo-3628100.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+height: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
 /*-----------------------Media Queries--------------------------*/
 
 
@@ -310,8 +366,6 @@ background-size: cover;
 
    
 }
-
-
 
 @media only screen and (min-width: 992px){
     
@@ -354,4 +408,18 @@ background-size: cover;
     flex: 100%;
     max-width: 100%;
   }
+}
+
+@media screen and (max-width:767.98px){
+    .lname {
+        margin-top: 20px;
+    }
+
+   
+}
+
+@media screen and (max-width:991.98px){
+ .card_spacing {
+        margin-top: 20px;
+    }
 }

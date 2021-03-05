@@ -91,25 +91,50 @@ while the initial plan for the website was to have only a hero image in the land
 
 ## 2. Features
 
-* Navigation 
+The website has 4 pages that users can reach easily. It also has a fifth page that only shows up once people submit their details in the contact page.
 
-This allows the user to navigate through different pages.
+* General Features
 
-* Paw Icon
+    * Navigation 
 
-This gives the user an easy access to the home page without having to use the navigation bar.
+        This allows the user to navigate through different pages.
 
-* Services section
+    * Paw Icon
 
-This allows the user to see the packages on offer.
+        This gives the user an easy access to the home page without having to use the navigation bar.
+
+
+* Home page
+    
+    * About me section
+        
+        This section welcomes the user to the page and introduces them to Regina.
+
+    * Reviews
+
+        This section allows the readers to see other people's experience.
+
+* Gallery page
+
+     This page shows a portfolio of Regina's work and has a small zoom in effect to make the page more dynamic.
+
+
+* Services page
+
+    This allows the user to see the packages on offer. It also has a button for the customer to enquire which takes the customer to the contact page.
 
 * Contact page
 
-This allows customers to get in contact with Regina.
+    This allows customers to get in contact with Regina. Once the details are added and a submit button is used, the page takes the customer to a new page with a thank you message.
 
 * Features to implement in the future
 
-The selling of both Regina's prints as well as her packages with a click of a button.
+    The selling of Regina's prints with a click of a button.
+
+    The ability to click and submit an enquiry based on the particular service the customer chose.
+
+    With the use of javascript, which I currently don't know, I would be able to get rid of the thank you page and use a modal that provides a pop up thank you on the same page.
+
 
 
 ## 3. Technologies used
@@ -163,10 +188,14 @@ The selling of both Regina's prints as well as her packages with a click of a bu
 
 * Specific code 
 
-    * Bootstrap to create collapsable menu
-    * https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp to create the gallery
-    * https://forum.freecodecamp.org/t/why-is-my-navbar-behind-other-content/62059 to have the header be on top in all sections.
-    * https://www.w3schools.com/howto/howto_css_image_text.asp to align text on images.
+    * [Bootstrap Collapsable Menu](https://getbootstrap.com/docs/4.0/components/navbar/)
+    * [To create a responsive grid for the gallery](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) 
+    * [to have the header be on top in all sections](https://forum.freecodecamp.org/t/why-is-my-navbar-behind-other-content/62059)
+    * [To align text on images](https://www.w3schools.com/howto/howto_css_image_text.asp) 
+    * [Parallax effect](https://www.w3schools.com/howto/howto_css_parallax.asp)
+    * [Hover and zoom effect on images](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
+    * [Media Queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+    * [form with the help of bootstrap as well as code insititute tutors](https://getbootstrap.com/docs/4.0/components/forms/)
 
 
 
