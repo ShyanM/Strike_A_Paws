@@ -33,7 +33,7 @@ As a customer I want to see other people's experiences and reviews.
 
 ## Validation testing
 
-### [W3C CSS Validation Service](jigsaw.w3.org)
+### [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 ![alt text](./readme_images/css.png)
 
@@ -83,6 +83,21 @@ The rest of the pages were also checked via lighthouse and the results are linke
 
 
 ### Home page
+
+
+* All links in the nav bar work and take you to the defined pages.
+* Paw icon refreshes the page since it takes you back to home page.
+* Images are responsive both on web and phone.
+* Website tested on Chrome and Safari.
+* Parallax effect works well for both browsers and then is switched off for smaller devices due to some incompatibilities.
+
+### Gallery page
+
+* All links in the nav bar work and take you to the defined pages.
+* Paw icon takes you back to home page.
+* Hover works for all images.
+* Realised hover was switched on for mobile and ipad devices as well so switched them off since no mouse is present when using those devices.
+
 
 ## Bugs
 

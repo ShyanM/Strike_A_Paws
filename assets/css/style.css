@@ -5,7 +5,7 @@ h1, h3, h4, p {
 
 html, body, header, section {
     height: 100%;
-    max-width: 100%;
+
 }
 
 /*--------------------------color----------------------------------*/
@@ -206,15 +206,7 @@ background-size: cover;
     width: 100%;
 }
 
-/*--Hover created with the help of https://www.w3schools.com/howto/howto_css_zoom_hover.asp--*/
 
-.column img {
-    transition: transform .2s;
-}
-
-.column img:hover {
-    transform: scale(1.1);
-}
 
 /*-----------------------Services--------------------------*/
 
@@ -356,7 +348,7 @@ background-size: cover;
 /*-----------------------Media Queries--------------------------*/
 
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-width: 1366px) {
   .parallax_index {
     background-attachment: scroll;
   }
@@ -423,6 +415,13 @@ background-size: cover;
 
 }
 
+@media only screen and (min-width: 992px){
+
+.column img:hover {
+    transform: scale(1.1);
+}
+}
+
 
 /*--https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp--*/
 
@@ -455,3 +454,10 @@ background-size: cover;
         margin-top: 20px;
     }
 }
+
+/*--Hover created with the help of https://www.w3schools.com/howto/howto_css_zoom_hover.asp--*/
+
+.column img {
+    transition: transform .2s;
+}
+
