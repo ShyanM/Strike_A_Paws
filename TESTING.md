@@ -80,16 +80,16 @@ The rest of the pages were also checked via lighthouse and the results are linke
 
 ## Manual Testing
 
+### General
 
-
-### Home page
-
-
-* All links in the nav bar work and take you to the defined pages.
-* Paw icon refreshes the page since it takes you back to home page.
 * Images are responsive both on web and phone.
 * Website tested on Chrome and Safari.
 * Parallax effect works well for both browsers and then is switched off for smaller devices due to some incompatibilities.
+
+### Home page
+
+* All links in the nav bar work and take you to the defined pages.
+* Paw icon refreshes the page since it takes you back to home page.
 
 ### Gallery page
 
@@ -98,10 +98,30 @@ The rest of the pages were also checked via lighthouse and the results are linke
 * Hover works for all images.
 * Realised hover was switched on for mobile and ipad devices as well so switched them off since no mouse is present when using those devices.
 
+### Services page
+
+* All links in the nav bar work and take you to the defined pages.
+* Paw icon takes you back to home page.
+* All links to the contact page work and are opened in a new page.
+
+### Contact page
+
+* All links in the nav bar work and take you to the defined pages.
+* Paw icon takes you back to home page.
+* Trying to submit an item without filling out the required details doesn't work.
+* Once submitted it changes to the thank you page.
+
+### Thank you page
+
+* Thank you page is a static image with the words thank you. 
+* It has both menu and paw so that customer can go back to the website.
 
 ## Bugs
 
-The hero images weren't scaling down on all devices. While it worked on an android phone it didn't work on 2 iphones. 
+1. The hero images weren't scaling down on all devices. While it worked on an android phone it didn't work on 2 iphones. 
 
-Fix: I realised that the parallax effect does not work on all phone devices so I switched the background-fixed to background scroll for smaller devices.
+    * Fix: I realised that the parallax effect does not work on all phone devices so I switched the background-fixed to background scroll for smaller devices.
 
+2. I initially used a modal so that when a customer presses submit in the contact page, a pop up comes up saying thank you. However the modal was ignoring the required inputs and it seemed like the button was working on its own.
+
+    * While not a proper fix I found a workaround. To fix the issue I need to know javascript which I don't as of yet. However I found that if I add an action and the link to the thank you page, it gives me a similar result.
