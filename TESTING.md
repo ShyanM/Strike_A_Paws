@@ -76,3 +76,6 @@ The rest of the pages were also checked via lighthouse and the results are linke
 
 
 ## Manual Testing
+
+### Home page
+
