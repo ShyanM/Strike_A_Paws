@@ -37,6 +37,9 @@ As a customer I want to see other people's experiences and reviews.
 
 ![alt text](./readme_images/css.png)
 
+The CSS shows that xxx-large font value isn't always recognised, this was also proved because when viewing on safari website, the font is not enlarged.
+
+
 
 
 ### [W3C Markup Validation Service](https://validator.w3.org/)
@@ -47,7 +50,7 @@ Index page was checked in the validator and showed the below.
 
 While it looked very decent I wanted to increase the accessibility as that was also something that showed up when checked with lighthouse chrome dev tools.
 
-I realised that I needed to remove the maximum scale in the meta as well as changing user-scalable from no to yes.
+I realised that I needed to remove the maximum scale in the meta as well as the user-scalable to make it more accessibile.
 
 This resulted in an improvement in the accessiblity.
 
@@ -77,8 +80,13 @@ The rest of the pages were also checked via lighthouse and the results are linke
 
 ## Manual Testing
 
+
+
 ### Home page
 
 ## Bugs
 
-Hero images weren't scaling down on mobile even though it showed as scalable on chrome dev.
+The hero images weren't scaling down on all devices. While it worked on an android phone it didn't work on 2 iphones. 
+
+Fix: I realised that the parallax effect does not work on all phone devices so I switched the background-fixed to background scroll for smaller devices.
+
