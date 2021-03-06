@@ -7,7 +7,7 @@ This aim of this project is to create a website for Regina's pet photography bus
 
 You can find a link to the live website [here](https://shyanm.github.io/Strike_A_Paws/).
 
-## <ins>Contents </ins>
+## <ins> Contents </ins>
 1. UX
     * Project Goals
     * Customer Goals
