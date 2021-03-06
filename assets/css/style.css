@@ -5,6 +5,7 @@ h1, h3, h4, p {
 
 html, body, header, section {
     height: 100%;
+
 }
 
 /*--------------------------color----------------------------------*/
@@ -126,7 +127,7 @@ button:focus {
 }
 
 .introduction h4{
-    font-size: xxx-large;
+    font-size: 5vh;
 }
 
 .introduction a {
@@ -156,12 +157,9 @@ button:focus {
 .reviewerpic img{
 
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
 
-}
-
-.reviewerpic img {
     border-radius: 50%;
     object-fit: cover;
     object-position: right;
@@ -208,15 +206,7 @@ background-size: cover;
     width: 100%;
 }
 
-/*--Hover created with the help of https://www.w3schools.com/howto/howto_css_zoom_hover.asp--*/
 
-.column img {
-    transition: transform .2s;
-}
-
-.column img:hover {
-    transform: scale(1.1);
-}
 
 /*-----------------------Services--------------------------*/
 
@@ -358,6 +348,37 @@ background-size: cover;
 /*-----------------------Media Queries--------------------------*/
 
 
+@media only screen and (max-width: 1366px) {
+  .parallax_index {
+    background-attachment: scroll;
+  }
+
+  .parallax_gallery {
+    background-attachment: scroll;
+  }
+
+  .parallax_services {
+    background-attachment: scroll;
+  }
+
+  .parallax_contact {
+    background-attachment: scroll;
+  }
+
+  .parallax_thankyou {
+    background-attachment: scroll;
+  }
+
+  .profile_picture {
+      background-attachment: scroll;
+  }
+
+  .image_break {
+      background-attachment: scroll;
+  }
+}
+
+
 @media only screen and (max-width: 992px){
     .introduction {
         background: rgba(186, 208, 200, 0.8);
@@ -384,18 +405,27 @@ background-size: cover;
     }
     
     .introduction h4{
-        font-size: xxx-large;
+        font-size: 5vh;
     }
 
     .introduction p{
-        font-size: xx-large;
+        font-size: 3vh;
     }
 
 
 }
 
+@media only screen and (min-width: 992px){
+
+.column img:hover {
+    transform: scale(1.1);
+}
+}
+
 
 /*--https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp--*/
+
+
 
 @media screen and (max-width: 992px) {
   .column {
@@ -424,3 +454,10 @@ background-size: cover;
         margin-top: 20px;
     }
 }
+
+/*--Hover created with the help of https://www.w3schools.com/howto/howto_css_zoom_hover.asp--*/
+
+.column img {
+    transition: transform .2s;
+}
+

@@ -1,11 +1,13 @@
 
-![alt text](./wireframes/mockup.png)
+![alt text](./readme_images/mockup.png)
 
 # Strike a Paws!
 
-This aim of this project is to create a website for Regina's pet photography business - Strike a Paws!. The website will provide potential customers a platform to view Regina's work, purchase her work and contact for a consultation/booking.
+This aim of this project is to create a website for Regina's pet photography business - Strike a Paws!. The website will provide potential customers a platform to view Regina's work, see the services she offers and contact for a consultation/booking.
 
-## <ins>Contents </ins>
+You can find a link to the live website [here](https://shyanm.github.io/Strike_A_Paws/).
+
+## <ins> Contents </ins>
 1. UX
     * Project Goals
     * Customer Goals
@@ -21,6 +23,7 @@ This aim of this project is to create a website for Regina's pet photography bus
 5. Deployment
 6. Credits
     * Content
+    * Code
 
 ## 1. UX
 
@@ -67,7 +70,7 @@ As a customer I want:
 
 * Colour Scheme
 
-![alt text](./wireframes/colourscheme.png)
+![alt text](./readme_images/colourscheme.png)
 
 I chose this colour scheme because I wanted the photos to be the main attraction and this soft colour scheme helps with that. 
 The seashell colour was used for the background of all pages as well as the white colour of text.
