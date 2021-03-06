@@ -208,6 +208,8 @@ or:
 
 * copied last review comment from this [here](https://eatsleepwander.com/photographer-review-examples/2/).
 
+* <a target="_blank" href="https://icons8.com/icons/set/cat-footprint">Cat Footprint favicon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
 
 ### Code
 
