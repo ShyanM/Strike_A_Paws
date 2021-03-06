@@ -79,3 +79,6 @@ The rest of the pages were also checked via lighthouse and the results are linke
 
 ### Home page
 
+## Bugs
+
+Hero images weren't scaling down on mobile even though it showed as scalable on chrome dev.

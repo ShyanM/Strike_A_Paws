@@ -157,12 +157,9 @@ button:focus {
 .reviewerpic img{
 
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
 
-}
-
-.reviewerpic img {
     border-radius: 50%;
     object-fit: cover;
     object-position: right;
@@ -359,6 +356,37 @@ background-size: cover;
 /*-----------------------Media Queries--------------------------*/
 
 
+@media only screen and (max-device-width: 1366px) {
+  .parallax_index {
+    background-attachment: scroll;
+  }
+
+  .parallax_gallery {
+    background-attachment: scroll;
+  }
+
+  .parallax_services {
+    background-attachment: scroll;
+  }
+
+  .parallax_contact {
+    background-attachment: scroll;
+  }
+
+  .parallax_thankyou {
+    background-attachment: scroll;
+  }
+
+  .profile_picture {
+      background-attachment: scroll;
+  }
+
+  .image_break {
+      background-attachment: scroll;
+  }
+}
+
+
 @media only screen and (max-width: 992px){
     .introduction {
         background: rgba(186, 208, 200, 0.8);
@@ -397,6 +425,8 @@ background-size: cover;
 
 
 /*--https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp--*/
+
+
 
 @media screen and (max-width: 992px) {
   .column {
