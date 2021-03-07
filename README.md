@@ -24,6 +24,7 @@ You can find a link to the live website [here](https://shyanm.github.io/Strike_A
 6. Credits
     * Content
     * Code
+    * Acknowledgements
 
 ## 1. UX
 
@@ -211,8 +212,6 @@ or:
     * [CSS tricks](https://css-tricks.com)
     * [Free Code Camp](https://www.freecodecamp.org)
 
-
-
 * Specific code 
 
     * [Bootstrap Collapsable Menu](https://getbootstrap.com/docs/4.0/components/navbar/)
@@ -224,5 +223,7 @@ or:
     * [Media Queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
     * [Form with the help of bootstrap as well as code insititute tutors](https://getbootstrap.com/docs/4.0/components/forms/)
 
+### Acknowledgements
 
+I would like to thank my tutor Narender Singh for his help and support with this project. I would also like to thank the Code Institute tutor support as well as the slack community for their help and also for making me realise I'm not alone in this journey.
 

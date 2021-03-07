@@ -5,7 +5,6 @@ h1, h3, h4, p {
 
 html, body, header, section {
     height: 100%;
-
 }
 
 /*--------------------------color----------------------------------*/
@@ -18,7 +17,6 @@ h1, h3{
     color:#FCF4E9;
 } 
 
-
 h4, h6, p {
     color: #504956;
 }
@@ -27,10 +25,7 @@ h4, h6, p {
     color: #FCF4E9  
 }
 
-
-
 /*-----------------------hero image and text--------------------------*/
-
 
 /*--parrallax effect created with the help of https://www.w3schools.com/howto/howto_css_parallax.asp---*/
 
@@ -61,7 +56,6 @@ background-size: cover;
     font-weight: 400;
     text-shadow: 1px 1px 10px #504956;
 }
-
 
 /*-----------------------nav bar--------------------------*/
 .menu {
@@ -125,7 +119,6 @@ button:focus {
     width: 100%;
 }
 
-
 .aboutme {
     height: 100%;
 }
@@ -138,10 +131,9 @@ button:focus {
     color: #FCF4E9;
 }
 
-
 .image_break{
     background-image: url(https://images.pexels.com/photos/2693561/pexels-photo-2693561.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    height: 100%;
+    height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -163,13 +155,11 @@ button:focus {
     display: block;
     margin-left: 50px;
     margin-right: 50px;
-
     border-radius: 50%;
     object-fit: cover;
     object-position: right;
     max-width: 200px;
     height: 200px;
-
 }
 
 .star_rating {
@@ -214,8 +204,6 @@ background-size: cover;
     width: 100%;
 }
 
-
-
 /*-----------------------Services--------------------------*/
 
 .parallax_services{
@@ -254,7 +242,6 @@ background-size: cover;
     background-color:  rgba(252, 244, 233, 0.5);
     max-width: 100%;
     border: 0;
-    
 }
 
 .classic {
@@ -282,7 +269,6 @@ padding: 30px 0;
     font-family: 'Ralway', sans-serif;
 }
 
-
 .card-footer {
     background: none;
     border: none;
@@ -303,7 +289,6 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-
 .contact_background_image {
     background-image: url(https://images.pexels.com/photos/1367002/pexels-photo-1367002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 height: 100%;
@@ -312,8 +297,6 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
-
-
 
 .full_form {
    padding-top: 150px;
@@ -328,13 +311,11 @@ background-size: cover;
 }
 
 .placeholder {
-    font-family: 'Ralway', sans-serif;
-    
+    font-family: 'Ralway', sans-serif;   
 }
 
 .btn {
-    background-color: #bdbad0;
-    
+    background-color: #bdbad0;   
 }
 
 .btn:hover {
@@ -342,8 +323,6 @@ background-size: cover;
 }
 
 /*-----------------------Thank You Message--------------------------*/
-
-
 
 .parallax_thankyou {
 background-image: url(https://images.pexels.com/photos/3628100/pexels-photo-3628100.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
@@ -354,9 +333,7 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-
 /*-----------------------Media Queries--------------------------*/
-
 
 /*background images*/
 
@@ -405,9 +382,7 @@ background-size: cover;
         background: rgba(186, 208, 200, 0.8);
         padding-top: 10px;
         text-align: center;
-    }
-
-   
+    }  
 }
 
 @media only screen and (min-width: 992px){
@@ -419,8 +394,7 @@ background-size: cover;
     .heading h3 {
         font-size: 100px;
     }
-    
-    
+        
     .introduction{
         text-align: end;
     }
@@ -432,8 +406,6 @@ background-size: cover;
     .introduction p{
         font-size: 3vh;
     }
-
-
 }
 
 /* gallery */
@@ -450,12 +422,10 @@ background-size: cover;
 }
 }
 
-
 /*--https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp--*/
 
-
-
 @media screen and (max-width: 992px) {
+
   .column {
     flex: 50%;
     max-width: 50%;
@@ -463,6 +433,7 @@ background-size: cover;
 }
 
 @media screen and (max-width: 600px) {
+
   .column {
     flex: 100%;
     max-width: 100%;
@@ -470,27 +441,24 @@ background-size: cover;
 }
 
 @media screen and (max-width:767.98px){
+
     .lname {
         margin-top: 20px;
-    }
-
-   
+    }  
 }
 
 /* services */
 
 @media screen and (max-width:991.98px){
 
-
-
- .card_spacing {
+    .card_spacing {
         margin-top: 20px;
     }
 }
 
 
 @media screen and (min-width:991.98px){
-
+    
 .cards_background{
     height: 100%;
 }

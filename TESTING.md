@@ -1,5 +1,3 @@
-
-
 # Testing
 
 [Main Readme.md](./README.md)
@@ -18,7 +16,6 @@ As a customer I want to be able to navigate with ease through pages.
 
 1. As a customer you have a collapsed menu on the top right, on all pages that is not sticky so you don't need to go back to top of the page to find it.
 2. Top left, customers can find a paw icon which when clicked takes them back to the homepage.
-
 
 As a customer I want to see the prices so I can see if the service is affordable.
 
@@ -43,10 +40,7 @@ As a customer I want to see other people's experiences and reviews.
 
 The CSS shows that xxx-large font value isn't always recognised, this was also proved because when viewing on safari website, the font is not enlarged. I changed the font sizes to pixels and this was resolved. The other error is due to the bootstrap framework so I am not able to fix it.
 
-
 ![alt text](./readme_images/css_updated.png)
-
-
 
 ### [W3C Markup Validation Service](https://validator.w3.org/)
 
@@ -68,7 +62,6 @@ The rest of the pages were also run through the validator and the results are li
 * [Services](./readme_images/w3-services.png)
 * [Contact](./readme_images/w3-contact.png)
 
-
 ### Lighthouse
 
 As mentioned above, an accessibility issue came up which was then resolved.
@@ -82,7 +75,6 @@ The rest of the pages were also checked via lighthouse and the results are linke
 * [Gallery](./readme_images/lh-gallery.png)
 * [Services](./readme_images/lh-services.png)
 * [Contact](./readme_images/lh-contact.png)
-
 
 ## Manual Testing
 
