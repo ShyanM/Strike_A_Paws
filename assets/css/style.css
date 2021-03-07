@@ -181,6 +181,10 @@ button:focus {
    padding-top: 10px;
 }
 
+.reviewcomment p {
+    font-size: 18px;
+}
+
 /*-----------------------Gallery--------------------------*/
 
 .parallax_gallery {
@@ -223,72 +227,63 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-.background_services {
-background-color: #BAD0C8;
-padding: 20px;
+.cards_background{
+    background-image: url(https://images.pexels.com/photos/374825/pexels-photo-374825.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .message {
-    background-color:  #FCF4E9;
+    background-color:  rgba(186, 208, 200, 0.9);
     margin: 50px 0;
     padding: 50px;
 }
 
-.cards {
-    height: 100%;
-}
-
-.card {
-    border: 0;
-    border-radius: 0;
-    background: 0;
-}
-
-.card_outline {
-    border: 0;
-    border-radius: 0;
-    background: 0;
-}
-    
-
-.card-title {
-    padding: 30px;
-    margin: 0;
-    border: 0;
-    border-radius: 0;
-    background: #504956;
+.message p {
     color: #FCF4E9;
 }
 
+.message a {
+    color: #504956;
+}
 
-.card-body {
-    padding: 0;
-    background-color:  #FCF4E9;
+.card {
     
+    background-color:  rgba(252, 244, 233, 0.5);
+    max-width: 100%;
+    border: 0;
+    
+}
+
+.classic {
+background-color: #93A0E1;
+padding: 30px 0;
+}
+
+.deluxe {
+    background-color: #E8ACA2;
+    padding: 30px 0;
+}
+
+.ultimate {
+    background-color: #98D29F;
+    padding: 30px 0;
 }
 
 .card-body ul {
     list-style: none;
-    padding: 20px;
-
+    font-family: 'Ralway', sans-serif;
+    padding: 0;
 }
 
-.card-body ul li {
-    margin: 30px 0;
+.card-body il {
+    font-family: 'Ralway', sans-serif;
 }
 
-.prices {
-    padding-top: 60px;
-   
-}
-
-.message a {
-    color: #BAD0C8;
-}
 
 .card-footer {
-
-    
     background: none;
     border: none;
 }
@@ -376,6 +371,10 @@ background-size: cover;
     background-attachment: scroll;
   }
 
+  .cards_background{
+      background-attachment: scroll;
+  }
+
   .parallax_contact {
     background-attachment: scroll;
   }
@@ -433,11 +432,15 @@ background-size: cover;
 
 
 }
-
+/*--Hover created with the help of https://www.w3schools.com/howto/howto_css_zoom_hover.asp--*/
 @media only screen and (min-width: 992px){
 
 .column img:hover {
     transform: scale(1.1);
+}
+
+.column img {
+    transition: transform .2s;
 }
 }
 
@@ -469,14 +472,20 @@ background-size: cover;
 }
 
 @media screen and (max-width:991.98px){
+
+
+
  .card_spacing {
         margin-top: 20px;
     }
 }
 
-/*--Hover created with the help of https://www.w3schools.com/howto/howto_css_zoom_hover.asp--*/
 
-.column img {
-    transition: transform .2s;
+@media screen and (min-width:991.98px){
+
+
+
+.cards_background{
+    height: 100%;
 }
-
+}
