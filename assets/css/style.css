@@ -358,6 +358,8 @@ background-size: cover;
 /*-----------------------Media Queries--------------------------*/
 
 
+/*background images*/
+
 @media only screen and (max-width: 1366px) {
   .parallax_index {
     background-attachment: scroll;
@@ -396,6 +398,7 @@ background-size: cover;
   }
 }
 
+/* index page */
 
 @media only screen and (max-width: 992px){
     .introduction {
@@ -432,6 +435,9 @@ background-size: cover;
 
 
 }
+
+/* gallery */
+
 /*--Hover created with the help of https://www.w3schools.com/howto/howto_css_zoom_hover.asp--*/
 @media only screen and (min-width: 992px){
 
@@ -471,6 +477,8 @@ background-size: cover;
    
 }
 
+/* services */
+
 @media screen and (max-width:991.98px){
 
 
@@ -482,8 +490,6 @@ background-size: cover;
 
 
 @media screen and (min-width:991.98px){
-
-
 
 .cards_background{
     height: 100%;

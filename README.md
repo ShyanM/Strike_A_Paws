@@ -43,7 +43,6 @@ Customer's goals are:
 - to see the services offered.
 - to learn more about the photographer.
 
-
 ### Business Owner Goals
 
 - to showcase her work in an elegant way.
@@ -81,7 +80,6 @@ All three colours were used to highlight important parts and to bring all pages 
 
 The images used were all sourced from Pexels.com. Since it's a photography website the images were what made the website. That's why I chose the most outstanding photos for the hero images as well as the gallery.
 
-
 ### Wireframes
 
 - [Home](./wireframes/home.png)
@@ -91,6 +89,7 @@ The images used were all sourced from Pexels.com. Since it's a photography websi
 
 while the initial plan for the website was to have only a hero image in the landing page, it was decided to create a hero image for each page, to show off more of Regina's photography as well as to keep all pages consistent.
 
+The services and contact page were also updated quite a bit, as based on the original plan, they seemed too plain compared to the rest. This is why I added a background image to both. Changed the names of the packages to something a bit more fun and added a pop of colour.
 
 ## 2. Features
 
@@ -106,7 +105,6 @@ The website has 4 pages that users can reach easily. It also has a fifth page th
 
         This gives the user an easy access to the home page without having to use the navigation bar.
 
-
 * Home page
     
     * About me section
@@ -121,7 +119,6 @@ The website has 4 pages that users can reach easily. It also has a fifth page th
 
      This page shows a portfolio of Regina's work and has a small zoom in effect to make the page more dynamic.
 
-
 * Services page
 
     This allows the user to see the packages on offer. It also has a button for the customer to enquire which takes the customer to the contact page.
@@ -135,8 +132,6 @@ The website has 4 pages that users can reach easily. It also has a fifth page th
     The selling of Regina's prints with a click of a button.
 
     The ability to click and submit an enquiry based on the particular service the customer chose.
-
-
 
 ## 3. Technologies used
 
@@ -162,8 +157,6 @@ The website has 4 pages that users can reach easily. It also has a fifth page th
    
     
 ## 4. [Testing](./TESTING.md)
-
-
 
 ## 5. Deployment
 
@@ -191,8 +184,6 @@ or:
 
 * click on open with Github Desktop and click choose.
 * Find the local path you want to clone to and click clone.
-
-
 
 ## 6. Credits
  

@@ -41,8 +41,10 @@ As a customer I want to see other people's experiences and reviews.
 
 ![alt text](./readme_images/css.png)
 
-The CSS shows that xxx-large font value isn't always recognised, this was also proved because when viewing on safari website, the font is not enlarged.
+The CSS shows that xxx-large font value isn't always recognised, this was also proved because when viewing on safari website, the font is not enlarged. I changed the font sizes to pixels and this was resolved. The other error is due to the bootstrap framework so I am not able to fix it.
 
+
+![alt text](./readme_images/css_updated.png)
 
 
 
@@ -129,3 +131,4 @@ The rest of the pages were also checked via lighthouse and the results are linke
 2. I initially used a modal so that when a customer presses submit in the contact page, a pop up comes up saying thank you. However the modal was ignoring the required inputs and it seemed like the button was working on its own.
 
     * While not a proper fix I found a workaround. To fix the issue I need to know javascript which I don't as of yet. However I found that if I add an action and the link to the thank you page, it gives me a similar result.
+
