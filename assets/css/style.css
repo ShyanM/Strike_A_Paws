@@ -49,7 +49,7 @@ background-size: cover;
 
 .heading {
     text-align: center;
-    padding-top: 90px;
+    padding-top: 100px;
 }
 
 .heading h1 {
@@ -75,6 +75,10 @@ background-size: cover;
 
 .button {
     padding-right: 0;
+}
+
+.navbar-toggler-icon{
+    font-size: 30px;
 }
 
 .navbar-nav {
@@ -106,7 +110,7 @@ button:focus {
 
 .paw_icon a{
     color: #f2f0e4;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 /*-----------------------About me--------------------------*/
@@ -305,15 +309,26 @@ background-size: cover;
 }
 
 
+.contact_background_image {
+    background-image: url(https://images.pexels.com/photos/1367002/pexels-photo-1367002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+height: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
 
 .full_form {
-   padding-top: 100px;
+   padding-top: 150px;
+   margin-right: 0;
 }
 
 .background {
-    background-color: #BAD0C8;
+    background-color: rgba(186, 208, 200, 0.8);
     padding: 20px;
-    width: 800px;
+    width: 700px;
     text-align: center;
 }
 
@@ -363,6 +378,10 @@ background-size: cover;
 
   .parallax_contact {
     background-attachment: scroll;
+  }
+
+  .contact_background_image {
+      background-attachment: scroll;
   }
 
   .parallax_thankyou {
