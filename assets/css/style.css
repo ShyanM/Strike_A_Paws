@@ -406,6 +406,10 @@ background-size: cover;
     .introduction p{
         font-size: 3vh;
     }
+
+    .image_break{
+        height: 100%;
+    }
 }
 
 /* gallery */
@@ -419,6 +423,8 @@ background-size: cover;
 
 .column img {
     transition: transform .2s;
+
+
 }
 }
 
